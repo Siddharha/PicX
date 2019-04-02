@@ -11,6 +11,7 @@ import android.view.MotionEvent
 
 
 class MainActivity : AppCompatActivity() {
+
     var dX: Float = 0.toFloat()
     var dY:Float = 0.toFloat()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         rbPanel.setOnTouchListener { view, event ->
-            when (event.action) {
+            val action = event.action
+            when (action) {
 
                 MotionEvent.ACTION_DOWN -> {
 

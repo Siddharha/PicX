@@ -28,7 +28,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             app:realtimeBlurRadius="20dp"
-            app:realtimeOverlayColor="#88FFFFFF" app:layout_constraintEnd_toEndOf="parent"
+            app:realtimeOverlayColor="#00FFFFFF" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 </android.support.constraint.ConstraintLayout>
